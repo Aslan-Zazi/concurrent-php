@@ -52,6 +52,20 @@ Cons:
 
 •	Out of the scope of the solution of this exercise.
 
+##	Multi cURL - My approach to run URL requests in parallel
+
+Pros:
+
+•	Using this approach enables the user to execute multiple requests simultaneously in asynchronous mode.
+      
+•	Easy to setup, understand and follow
+
+•	Doesn’t need an external library using this approach.
+
+Cons:
+
+•	High cpu usage - In some cases this approach can cause high cpu usage and slow the performance of the server.
+
 ## Terminal output from the script
 ```
 $ time curl concurrent.dev/index.php?count=10
